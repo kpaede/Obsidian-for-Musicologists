@@ -11,13 +11,13 @@ If you’ve found your way here, you probably know what solution I’m offering.
 
 Obsidian could look like this after that: 
 ![Obsidian example](./Pasted%20image%2020240829115502.png)
-##  Rendering Plugins: Musescore, lilypond, abc, Verovio
+#  Rendering Plugins: Musescore, lilypond, abc, Verovio
 - We are going to use the [Verovio Music Renderer](https://github.com/kpaede/Verovio-Music-Renderer) I developed – but first let's check out other awesome solutions.
 - For [LilyPond](https://github.com/fuzzbyte/obsidian-lilypond). LilyPond is an open standard for text-based music notation and produces very beautiful graphical results. The downside is that since the notation is text-based, it’s not exactly beginner-friendly. Still it's pretty useful to render LilyPond within Obsidian, if you use it.
 - ABC is an open standard for music notation in text form. It serves as an input markup language in music software as well as a storage format for music files. With the [Obsidian ABC.JS plugin](https://github.com/abcjs-music/obsidian-plugin-abcjs), you can not only render and playback ABC files conveniently but also enter the ABC code directly into MuseScore into a code block. It is text-baed, but very beginner-friendly and perfect for small sketches.
 - The [MuseScore integration plugin for Obsidian](https://github.com/RyotaUshio/obsidian-musescore#musescore-integration-plugin-for-obsidian) takes a different approach. It uses MuseScore's PDF rendering as an auto-export and is another very exciting approach to dynamic notation within Obsidian. Unlike the Verovio plugin (which we are going to use), it does not need the export step to MusicXML or MEI within MuseScore. Install it via [BRAT](https://github.com/TfTHacker/obsidian42-brat).  The creator of this plugin introduces it [here in the Obsidian Forum](https://forum.obsidian.md/t/musescore-sheet-music-embed-plugin/87084) in a very informative thread.
 
-## Rendering, Playback and svg-Download of of MusicXML, MEI and abc with the Verovio-Plugin
+# Rendering, Playback and svg-Download of of MusicXML, MEI and abc with the Verovio-Plugin
 Obsidian will never be a musical notation editor. Therefore, we will edit the sheet music in a specific notation editor and render it within Obsidian, where we can also adjust the rendering of this notation. For this, we use the [Verovio Music Renderer](https://github.com/kpaede/Verovio-Music-Renderer), a plugin I recently built due to the lack of alternatives for this specific case. This is a plugin for [Obsidian](https://obsidian.md/) that uses [Verovio](https://www.verovio.org/) – a lightweight open-source library for engraving Music Encoding Initiative (MEI) music scores (as well as ABC and MusicXML files) into SVG. With this plugin, you can render musical scores seamlessly within Obsidian, enhancing your efficiency when working with written music. This approach ensures that we ALWAYS think in MEI. Verovio converts everything internally into MEI. This is actually an advantage because MEI is the de facto standard in musicology.
 
 The plugin currently has the following features:
@@ -81,7 +81,7 @@ measureRange: 1-20
 The "Open" button automatically opens the rendered file with the program associated with it in the operating system. MuseScore can import and export MEI as well as MusicXML files. **After you opened a file with MuseScore, you need to export it as MusicXML or MEI and overwrite the file you are dealing with.**
 
 
-## Using musical Glyphs in Text
+# Using musical Glyphs in Text
 By default, Obsidian is not designed to use different fonts inline. However, with a few steps, you can achieve this:
 
 - First, install the [Obsidian Custom Font Plugin](https://github.com/pourmand1376/obsidian-custom-font#obsidian-custom-font-plugin).
