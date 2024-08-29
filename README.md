@@ -10,7 +10,7 @@ If you’ve found your way here, you probably know what solution I’m offering.
 - And the ability to export all of this in a meaningful way
 
 Obsidian could look like this after that:
-![[Pasted image 20240829115502.png]]
+![[./Pasted image 20240829115502.png]]
 ##  Rendering Plugins: Musescore, lilypond, abc, Verovio
 - We are going to use the [Verovio Music Renderer](https://github.com/kpaede/Verovio-Music-Renderer) I developed – but first let's check out other awesome solutions.
 - For [LilyPond](https://github.com/fuzzbyte/obsidian-lilypond). LilyPond is an open standard for text-based music notation and produces very beautiful graphical results. The downside is that since the notation is text-based, it’s not exactly beginner-friendly. Still it's pretty useful to render LilyPond within Obsidian, if you use it.
