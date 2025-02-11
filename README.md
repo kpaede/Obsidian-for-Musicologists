@@ -31,7 +31,7 @@ The plugin currently has the following features:
 - Rendering specific measure selections.
 ### Installation
 
-This plugin is not yet part of the Obsidian community plugins. You can install it via [BRAT](https://github.com/TfTHacker/obsidian42-brat) (just add the URL you're on right now as a beta plugin). You can also do it manually: Copy the files main.js and manifest.json from the release (look right) into the plugin folder of your vault like this: VaultFolder/.obsidian/plugins/Verovio-Music-Renderer/.
+This plugin is part of the Obsidian community plugins, which is the easiest way to install it. You can also install it via [BRAT](https://github.com/TfTHacker/obsidian42-brat) (just add the URL you're on right now as a beta plugin). You can also do it manually: Copy the files main.js and manifest.json from the release (look right) into the plugin folder of your vault like this: VaultFolder/.obsidian/plugins/Verovio-Music-Renderer/.
 
 Install the plugin, then copy the following into your Obsidian document:
 
