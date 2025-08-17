@@ -159,6 +159,9 @@ With the [Obsidian ZotLit](https://github.com/PKM-er/obsidian-zotlit#obsidian-zo
 
 One issue remains: converting citations in pandoc format live into the desired citation style. This can be done with the [Obsidian Pandoc Reference List](https://github.com/mgmeyers/obsidian-pandoc-reference-list#obsidian-pandoc-reference-list) plugin. I also use the associated side panel here, which automatically displays a bibliography in the desired style for each document.
 
+### A word about footnotes
+I strongly prefer inline footnoes in obsidian. If you want to convert your referenced footnotes to inline footnoes you can use this script. https://github.com/kpaede/convert-to-linine-footnotes
+
 ### Exporting
 If you've installed the previous plugin, you already have Pandoc installed as well. We need this for exporting, for example, to a Word document, which also works with Zotero. I recommend using the [Obsidian Enhancing Export](https://github.com/mokeyish/obsidian-enhancing-export#obsidian-enhancing-export-plugin) plugin for this.
 
