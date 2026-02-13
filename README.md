@@ -181,6 +181,12 @@ In [this thread](https://forum.obsidian.md/t/exporting-with-citations/75428/3), 
 > 4. If necessary, specify additional arguments for `zotero.lua`.
 >     - For example, if you are citing items in a group library, you should specify that with the `library` property (see below).
 >     - This can be done in the note’s [properties 9](https://help.obsidian.md/Editing+and+formatting/Properties), like so:
+>   
+### Import RISM entries as Markdown files
+see [](https://github.com/kpaede/Obsidian-RISM-fetcher)
+![gif](https://github.com/user-attachments/assets/adfa6916-cb4a-454f-ae78-ca62a30b7b74)
+
+
 
 
 Now you should be ready to go!
