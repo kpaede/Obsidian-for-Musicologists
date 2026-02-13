@@ -183,7 +183,7 @@ In [this thread](https://forum.obsidian.md/t/exporting-with-citations/75428/3), 
 >     - This can be done in the note’s [properties 9](https://help.obsidian.md/Editing+and+formatting/Properties), like so:
 >   
 ### Import RISM entries as Markdown files
-see [](https://github.com/kpaede/Obsidian-RISM-fetcher)
+see [https://github.com/kpaede/Obsidian-RISM-fetcher](https://github.com/kpaede/Obsidian-RISM-fetcher)
 ![gif](https://github.com/user-attachments/assets/adfa6916-cb4a-454f-ae78-ca62a30b7b74)
 
 
